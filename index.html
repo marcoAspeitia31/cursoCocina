@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Escuela de Cocina</title>
 </head>
+
 <body>
-    <header class="header py-5"><!-- Create padding of 5px in Axis y-->
+    <header class="header py-5">
+        <!-- Create padding of 5px in Axis y-->
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-4"> <!-- May take 4 columns of 12 that bootstrap has by default -->
-                    <a href="index.html">
+                <div id="logo" class="col-md-4">
+                    <!-- May take 4 columns of 12 that bootstrap has by default -->
+                    <a class="navbar-brand" href="index.html">
                         <img src="img/logo.svg" class="img-fluid">
                     </a>
-                </div>
-            </div>
-        </div>
+                </div><!-- logo -->
+                <div id="menu" class="col-md-8">
+                    <nav class="navbar navbar-expand-md navbar-light justify-content-center">
+                        <div id="mainNavbar" class="collapse navbar-collapse justify-content-center
+                            justify-content-lg-end">
+                            <a href="nosotros.html" class="nav-link">Nosotros</a>
+                            <a href="blog.html" class="nav-link">Blog</a>
+                            <a href="clases.html" class="nav-link">Clases</a>
+                            <a href="galeria.html" class="nav-link">Galería</a>
+                            <a href="contacto.html" class="nav-link">Contacto</a>
+                        </div><!-- mainNavbar -->
+                    </nav><!-- navbar -->
+                </div><!-- menu -->
+            </div><!-- row -->
+        </div><!-- container -->
     </header>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
 </html>
