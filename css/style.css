@@ -26,6 +26,14 @@ p {
   background-repeat: no-repeat;
   background-position: center center;
 }
+.btn-primary {
+  background-color: var(--primario);
+  border-color: var(--primario);
+}
+.btn-primary:hover {
+  background-color: #f54749;
+  border-color: #f54749;
+}
 /* Header */
 .header .nav-link {
   color: black;
@@ -56,6 +64,23 @@ p {
 .us .information h3 {
   font-weight: 300;
   font-size: 1.6rem;
+}
+/* Blog page */
+blockquote.subtitle {
+  font-size: 1.5rem;
+  color: #303030;
+  font-style: italic;
+  font-weight: 100;
+  border-left: 2px solid var(--primario);
+}
+.postPreview a {
+  color: var(--primario);
+}
+.postContent .meta p {
+  font-weight: 700;
+}
+.postContent .meta span {
+  color: var(--primario);
 }
 
 /* Footer */
