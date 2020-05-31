@@ -4,7 +4,6 @@
   --secundario: #c7c57d;
   --gris: #f5f5f5;
 }
-
 body {
   font-family: sans-serif;
   color: #303030;
@@ -39,7 +38,7 @@ p {
   border-bottom: 2px solid var(--primario);
 }
 
-/* Oustanding Image */
+/* Us page */
 .outstandingImage {
   height: 24rem;
   background-size: cover;
@@ -53,6 +52,10 @@ p {
   border: 1px solid #e1e1e1;
   position: relative;
   z-index: 100;
+}
+.us .information h3 {
+  font-weight: 300;
+  font-size: 1.6rem;
 }
 
 /* Footer */
