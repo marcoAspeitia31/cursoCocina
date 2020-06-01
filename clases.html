@@ -15,7 +15,6 @@
     <header class="header py-5">
       <!-- Top Navbar -->
       <div class="container">
-        <!-- Init display flex with class row -->
         <div class="row justify-content-center align-items-center">
           <div id="logo" class="col-md-4 col-8 mb-4 mb-md-0">
             <a class="navbar-brand" href="index.html">
@@ -40,8 +39,8 @@
                 class="collapse navbar-collapse justify-content-center justify-content-lg-end text-center text-uppercase"
               >
                 <a href="nosotros.html" class="nav-link">Nosotros</a>
-                <a href="blog.html" class="nav-link active">Blog</a>
-                <a href="clases.html" class="nav-link">Clases</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="clases.html" class="nav-link active">Clases</a>
                 <a href="galeria.html" class="nav-link">Galería</a>
                 <a href="contacto.html" class="nav-link">Contacto</a>
               </div>
@@ -56,51 +55,43 @@
       <!-- container -->
     </header>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-12 outstandingImage us-bg"></div>
-      </div>
-    </div>
-
-    <main class="container">
+    <div id="topDescription" class="container mb-4">
       <div class="row justify-content-center">
-        <div id="Us" class="col-md-8 py-3 px-5 us-content bg-light shadow">
-          <h2 class="text-center my-5 divider">Entrada 1</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            laboriosam dolorum minima mollitia rerum, consectetur totam fugiat.
-            Veniam eum minima, hic accusantium necessitatibus culpa laudantium,
-            nisi quo voluptas beatae aspernatur!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ullam
-            laborum modi in deleniti unde eaque, qui maiores adipisci
-            accusantium tempore reprehenderit vero ipsum accusamus, laudantium
-            officia doloremque animi cumque!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-            suscipit distinctio debitis? Molestiae nemo assumenda magnam ipsa
-            perspiciatis sequi, quia minus animi placeat? Veniam dolore commodi
-            adipisci delectus sunt provident.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ullam
-            laborum modi in deleniti unde eaque, qui maiores adipisci
-            accusantium tempore reprehenderit vero ipsum accusamus, laudantium
-            officia doloremque animi cumque!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-            suscipit distinctio debitis? Molestiae nemo assumenda magnam ipsa
-            perspiciatis sequi, quia minus animi placeat? Veniam dolore commodi
-            adipisci delectus sunt provident.
-          </p>
+        <div class="col-md-8">
+          <blockquote class="text-center pl-3 subtitle">
+            Nuestros cursos son impartidos por expertos en la materia, así como
+            por Chef's profesionales.
+          </blockquote>
         </div>
-        <!-- Us -->
+        <!-- col-md-8 -->
       </div>
       <!-- row -->
-    </main>
+    </div>
+    <!-- container topDescription -->
+
+    <section class="classes mt-5 py-5">
+      <h1 class="divider text-center mb-3">Próximas clases</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <img src="img/clase1.jpg" alt="clase1" class="card-img-top" />
+              <div
+                class="card-meta bg-primary p-3 text-light d-flex justify-content-between align-items-center"
+              >
+                <p class="m-0">20/Mayo/2020 18:00 hrs</p>
+                <span class="badge badge-scondary p-2">$300</span>
+              </div>
+              <!-- card-meta -->
+            </div>
+            <!-- card -->
+          </div>
+          <!-- grid -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container classes -->
+    </section>
 
     <footer class="footer p-5">
       <div class="container">
