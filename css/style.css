@@ -26,6 +26,9 @@ p {
   background-repeat: no-repeat;
   background-position: center center;
 }
+.inverse::after {
+  background-image: url(../img/separador-inverso.png);
+}
 .btn-primary {
   background-color: var(--primario);
   border-color: var(--primario);
@@ -34,6 +37,10 @@ p {
   background-color: #f54749;
   border-color: #f54749;
 }
+.bg-primary {
+  background-color: var(--primario) !important;
+}
+
 /* Header */
 .header .nav-link {
   color: black;
@@ -64,6 +71,28 @@ p {
 .us .information h3 {
   font-weight: 300;
   font-size: 1.6rem;
+}
+aside a,
+aside a:hover {
+  color: white;
+}
+aside .card {
+  border: none;
+}
+aside .card-title {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+aside .card-subtitle {
+  color: var(--primario);
+  font-weight: 500;
+}
+aside .card-footer {
+  background-color: var(--secundario);
+}
+aside .card-footer a {
+  color: black;
 }
 /* Blog page */
 blockquote.subtitle {
