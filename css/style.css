@@ -111,6 +111,17 @@ blockquote.subtitle {
 .postContent .postMeta span {
   color: var(--primario);
 }
+/* Clases page */
+.badge-secondary {
+  background-color: rgb(80, 45, 45) !important;
+}
+.card-title {
+  font-weight: 600;
+}
+.card-subtitle {
+  color: var(--primario);
+  font-weight: 500;
+}
 
 /* Footer */
 .footer {
