@@ -37,8 +37,13 @@ p {
   background-color: #f54749;
   border-color: #f54749;
 }
-.bg-primary {
+.bg-primary,
+.list-group-item-primary {
   background-color: var(--primario) !important;
+}
+.badge-secondary,
+.list-group-item-secondary {
+  background-color: #c7c57d !important;
 }
 
 /* Header */
@@ -112,9 +117,6 @@ blockquote.subtitle {
   color: var(--primario);
 }
 /* Clases page */
-.badge-secondary {
-  background-color: rgb(80, 45, 45) !important;
-}
 .card-title {
   font-weight: 600;
 }
@@ -122,7 +124,15 @@ blockquote.subtitle {
   color: var(--primario);
   font-weight: 500;
 }
-
+/* Single Class page */
+.class-bg {
+  background-image: url(../img/1.jpg);
+  background-repeat: no-repeat;
+}
+.instructor {
+  font-size: 1.8rem;
+  color: var(--primario);
+}
 /* Footer */
 .footer {
   border-bottom: 10px solid var(--primario);
