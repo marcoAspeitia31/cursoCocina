@@ -122,6 +122,11 @@ blockquote.subtitle {
   color: var(--primario);
   font-weight: 500;
 }
+/* Single Class page */
+.class-bg {
+  background-image: url(../img/1.jpg);
+  background-repeat: no-repeat;
+}
 
 /* Footer */
 .footer {
