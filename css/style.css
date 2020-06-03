@@ -133,6 +133,10 @@ blockquote.subtitle {
   font-size: 1.8rem;
   color: var(--primario);
 }
+/* Contact page */
+.contact-bg {
+  background-image: url(../img/principal2.jpg);
+}
 /* Footer */
 .footer {
   border-bottom: 10px solid var(--primario);
