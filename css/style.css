@@ -91,6 +91,9 @@ p {
     order: 2; /* Invert the order of the row .bottom-image and put bg-secondary in the second col-md-6 instead of bg-food */
   }
 }
+.index .classes {
+  background-color: var(--gris);
+}
 
 /* Us page */
 .outstandingImage {
@@ -174,6 +177,10 @@ blockquote.subtitle {
 /* Footer */
 .footer {
   border-bottom: 10px solid var(--primario);
+}
+.footer .container {
+  border-top: 1px solid var(--primario);
+  padding-top: 2rem;
 }
 .footer .nav-link {
   color: black;
